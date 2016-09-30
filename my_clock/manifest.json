@@ -1,0 +1,14 @@
+{
+	//January 2014
+	//Chrome will stop loading or running manifest version 1 extensions.
+	"manifest_version": 2,
+	"name": "myBlock",
+	"version": "1.0",
+	"description": "my first clock",
+	// "icons": "images/clock2.jpg",
+	"browser_action": {
+		"default_icon": "images/clock1.jpg",
+		"default_title": "my clock",
+		"default_popup": "popup.html"
+	}
+}
