@@ -5,3 +5,5 @@
 
 #### demo目录
 1. [my_clock](./my_clock) ：简单展示时间
+2. [fxxking baidu](./fxxkbaidu): 调戏百度搜索按钮
+3. [showIP](./showIP) : 展示IP，但神奇的是官方例子中所用的新浪云竟然欠费不维护了。。。所以就。。。

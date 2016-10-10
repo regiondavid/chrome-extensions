@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "show your IP adress",
+	"version": "1.0.0",
+	"description": "show your computer IP",
+	"browser_action": {
+		"default_icon": "show.png",
+		"default_title": "show",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"http://sneezryworks.sinaapp.com/ip.php",
+		"http://www.ip.cn/getip.php?action=getip"
+	]
+}
