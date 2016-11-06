@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "shanbei-assistant",
+    "version": "0.1",
+    "description": "remove the ad,slice the page and translate the words",
+    "browser_action": {
+        "default_title": "扇贝助手",
+        "default_popup": "popup.html"
+    }
+}

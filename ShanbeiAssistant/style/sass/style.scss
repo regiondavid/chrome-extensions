@@ -1,0 +1,48 @@
+#selectBanner {
+    width: 300px;
+    height: 400px;
+    .select-items {
+        list-style: none;
+        button {
+            font-family: "微软雅黑";
+            cursor: pointer;
+            outline: hidden;
+            width: 150px;
+            border: none;
+            height: 65px;
+            background-color: #4ba4fb;
+            color: #fff;
+            font-size: 25px;
+            margin-bottom: 15px;
+            &:hover {
+                border: none;
+                cursor: pointer;
+                background-color: #0B7FEC;
+            }
+        }
+    }
+}
+#shanbei-words {
+    width: 300px;
+    height: 600px;
+    background-color: rgba(#BAB4B4, 0.16);
+    #words-title {
+        background-color: #00B839;
+        color: #fff;
+        a {
+            color: #fff;
+            font-size: 20px;
+            line-height: 25px;
+            text-decoration: none;
+        }
+    }
+}
+// clear-fix
+.clear-fix {
+    &::before,&::after {
+        content: "";
+        display: table;
+    }
+    clear: both;
+    *zoom: 1;
+}
