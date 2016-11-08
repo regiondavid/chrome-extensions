@@ -3,6 +3,16 @@
     "name": "shanbei-assistant",
     "version": "0.1",
     "description": "remove the ad,slice the page and translate the words",
+    "permissions": [
+        "https://www.theguardian.com/politics/2015/may/28/david-cameron-sets-off-on-mission-to-win-over-european-leaders"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["https://www.theguardian.com/*"],
+          "js": ["js/main.js"]
+        }
+    ],
+    "options_page": "options.html",
     "browser_action": {
         "default_title": "扇贝助手",
         "default_popup": "popup.html"
