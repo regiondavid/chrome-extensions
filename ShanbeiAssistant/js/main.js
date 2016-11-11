@@ -9,6 +9,8 @@ var midAlert = document.getElementsByClassName('fsrFloatingContainer'),
     lFooter = document.getElementsByClassName('l-footer'),
     inlineAd = document.getElementsByClassName('ad-slot--inline'),
     contentBody = document.getElementsByClassName('content__article-body'),
+    setMessage = document.getElementsByClassName('site-message'),
+    contribution = document.getElementsByClassName('contributions__epic'),
     contentMeta = document.getElementsByClassName('content__meta-container');
 if(midAlert.length){
     midAlert[0].style.display = "none";
@@ -36,7 +38,12 @@ if(contentFoot.length){
 if(lFooter.length){
     lFooter[0].style.display = "none";
 }
+if(setMessage.length){
+    setMessage[0].style.display = "none";
+}
 if(inlineAd.length){
-    console.log(2333);
     contentBody[0].removeChild(inlineAd[0]);
+}
+if(contribution.length){
+    contribution[0].style.display = "none";
 }
