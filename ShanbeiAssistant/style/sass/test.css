@@ -1,0 +1,41 @@
+/*
+Error: Invalid GBK character "\xE5"
+        on line 7 of style.scss
+
+2:     width: 300px;
+3:     height: 400px;
+4:     .select-items {
+5:         list-style: none;
+6:         button {
+7:             font-family: "微软雅黑";
+8:             cursor: pointer;
+9:             outline: hidden;
+10:             width: 150px;
+11:             border: none;
+12:             height: 65px;
+
+Backtrace:
+style.scss:7
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1300:in `rescue in block in find_encoding_error'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1297:in `block in find_encoding_error'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1296:in `each'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1296:in `each_with_index'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1296:in `find_encoding_error'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:911:in `rescue in check_sass_encoding'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:907:in `check_sass_encoding'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:436:in `check_encoding!'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:392:in `_to_tree'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:391:in `run'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:63:in `process_result'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+d:/coder/Ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+d:/coder/Ruby/Ruby23-x64/bin/sass:23:in `load'
+d:/coder/Ruby/Ruby23-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid GBK character \"\xE5\"\A         on line 7 of style.scss\A \A 2:     width: 300px;\A 3:     height: 400px;\A 4:     .select-items {\A 5:         list-style: none;\A 6:         button {\A 7:             font-family: \"微软雅黑\";\A 8:             cursor: pointer;\A 9:             outline: hidden;\A 10:             width: 150px;\A 11:             border: none;\A 12:             height: 65px;"; }
