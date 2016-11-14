@@ -1,20 +1,18 @@
 {
     "manifest_version": 2,
     "name": "shanbei-assistant",
-    "version": "0.1",
+    "version": "1.0",
     "description": "remove the ad,slice the page and translate the words",
     "permissions": [
-        "https://api.shanbay.com/bdc/search/?word=*","webRequest"
+        "https://api.shanbay.com/bdc/search/?word=*","webRequest","https://media.shanbay.com/*"
     ],
     "content_scripts": [
         {
           "matches": ["https://www.theguardian.com/*"],
-          "js": ["js/main.js","js/getWords.js","js/slidePage.js"]
+          "js": ["js/removeAD.js","js/getWords.js","js/slidePage.js"]
         }
     ],
-    "options_page": "options.html",
     "browser_action": {
-        "default_title": "扇贝助手",
-        "default_popup": "popup.html"
+        "default_title": "扇贝助手"
     }
 }

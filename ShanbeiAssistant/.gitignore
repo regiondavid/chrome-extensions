@@ -43,3 +43,8 @@ jspm_packages
 
 # Output of 'npm pack'
 *.tgz
+
+# 自定义
+shanbei-assistant
+webpack.config.js
+images

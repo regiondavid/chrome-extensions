@@ -1,10 +1,7 @@
 (function addBt(){
-    // var docfrag = document.createDocumentFragment();
     var bt1 = document.createElement('div'),
         bt2 = document.createElement('div');
     bt1.className = "shanbei-slide-bt";
-    // bt1.innerHTML = "<span style='display:block;width:0;height:0;border-width:0 50px 50px;border-style:solid;border-color:transparent transparent rgba(255, 204, 0, 0.3);position:absolute;top:0px;left:0px;'></span>";
-    // bt2.innerHTML = "<span style='display:block;width:0;height:0;border-width:50px 50px 0;border-style:solid;border-color:rgba(255, 204, 0, 0.3) transparent transparent;position:absolute;top:0px;left:0px;'></span>";
     bt2.className = "shanbei-slide-bt";
     bt1.setAttribute('style',"width:0;height:0;border-width:0 50px 50px;border-style:solid;border-color:transparent transparent rgba(255, 204, 0, 0.3);position:fixed;right:20px;top:50%;z-index:9999;");
     bt2.setAttribute('style',"width:0;height:0;border-width:50px 50px 0;border-style:solid;border-color:rgba(255, 204, 0, 0.3) transparent transparent;position:fixed;right:20px;top:75%;z-index:9999;");
