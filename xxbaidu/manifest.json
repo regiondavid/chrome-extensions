@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"name": "去™的百度",
+	"name": "tx百度",
 	"version": "1.0.0",
 	"description": "让你用不了百度",
 	"content_scripts": [
